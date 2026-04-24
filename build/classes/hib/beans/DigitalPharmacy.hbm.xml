@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+  <hibernate-mapping package="hib.beans">
+      <class name="DigitalPharmacy" table="DigitalPharmacy">
+          <id name="medId" >
+            <generator class="native"/>
+        </id>
+          <property name="medicineDescription" column="MedicineDescription"/>
+          <property name="fullName" column="FullName"/>
+          <property name="ward" column="ward"/>
+          <property name="status" column="status"/>
+
+      </class>
+  </hibernate-mapping>
+

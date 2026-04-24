@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+  <hibernate-mapping package="hib.beans">
+      <class name="Patient" table="Patient">
+          <id name="patientId" ></id>
+          <property name="fullName" column="FullName"/>
+          <property name="password" column="Password"/>
+          <property name="emailId" column="EmailId"/>
+          <property name="address" column="Address"/>
+          <property name="ailment" column="Ailment"/>
+          <property name="description" column="Description"/>
+          <property name="dOB" column="DOB"/>
+          <property name="gender" column="Gender"/>
+          <property name="contact" column="Contact"/>
+          <property name="nationality" column="Nationality"/>
+      </class>
+  </hibernate-mapping>

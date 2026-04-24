@@ -1,0 +1,10 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+  <hibernate-mapping package="hib.beans">
+      <class name="Admin" table="Admin">
+          <id name="aId" ></id>
+          <property name="aPass" column="Password"/>
+      </class>
+  </hibernate-mapping>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NutriSync">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/NutriSync.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
